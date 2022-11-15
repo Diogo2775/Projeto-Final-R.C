@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+article,
+aside,
+footer,
+header,
+main,
+nav,
+section {
+	display: block;
+}
+
+html,
+body,
+h1,
+h3,
+ul,
+li,
+a,
+p,
+article,
+aside,
+footer,
+header,
+main,
+nav,
+section {
+	padding: 0;
+	margin: 0;
+}
+
+.banner {
+	background-color: #ffffff;
+	color: rgb(255, 255, 255);
+	padding: 10px 20px;
+}
+
+body {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background: linear-gradient(rgb(61, 61, 253), black);
+	font-family: Helvetica, Arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+	font-size: 15px;
+}
+
+nav {
+	background-color: #1100ff;
+	padding: 5px;
+	margin-top: 1px;
+}
+
+li a {
+	color: white;
+}
+
+li {
+	display: inline;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+section {
+	background-color: #000000;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+article {
+	background: #ffffff;
+	margin-top: 5px;
+	padding: 10px 15px;
+}
+
+main {
+	width: 640px;
+	float: left;
+	margin: 10px;
+}
+
+aside {
+	background-color: #ffffff;
+	width: 270px;
+	float: right;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+footer {
+	clear: both;
+	background-color: #ff8800;
+	color: white;
+	padding: 5px 20px;
+}
+
+.tabtext {
+	color: white;
+}
+
+.produtos:hover {
+	box-shadow: 10px 10px 26px 1px rgba(0, 0, 0, 0.75);
+	border-radius: 10px;
+	margin-left: 0.5%;
+	transition: 0.4s;
+}
